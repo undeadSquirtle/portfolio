@@ -15,3 +15,5 @@
 # Copyright and Plagiarism
 Started with Bootstrap Library
 
+
+![](https://raw.githubusercontent.com/undeadSquirtle/portfolio/master/img/clear-02.jpg)
