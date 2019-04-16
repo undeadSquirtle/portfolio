@@ -13,7 +13,9 @@
 ---
 
 # Copyright and Plagiarism
-Started with Bootstrap Library
+Using Bootstrap 4 library, built site from scratch.
+All images are owned by Foster Imagination Studios.
+©2019 Foster Imagination Studios
 
 
 ![](https://raw.githubusercontent.com/undeadSquirtle/portfolio/master/img/clear-02.jpg)
