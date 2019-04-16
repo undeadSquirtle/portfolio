@@ -1,0 +1,205 @@
+
+
+/* GLOBAL */
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: px;
+    color: rgb(47,55,88);
+}
+.content{
+    margin-bottom: 80px;
+}
+
+/*-- Nav Bar --*/
+#logo{
+    margin-left: 310px;
+    width: 100px;
+}
+.header{
+    padding-top: 100px;
+}
+.navigation{
+    background-color: #F2F2FA;
+    color:  rgb(65,77,126);
+}
+.navbar-brand{
+    color: rgb(65,77,126);
+}
+.navbar-brand:hover{
+    color: rgb(65,77,126);
+}
+.navbar .nav-link{
+    color: rgb(65,77,126,0.75);
+}
+.navbar-nav .active{
+    color: rgb(65,77,126);
+}
+.navbar .nav-link:hover{
+    color: rgb(65,77,126);
+}
+
+/*-- Project Title Cards --*/
+
+.bg-img {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin-bottom: 16px;
+  display: block;
+}
+.bg-img h2{
+  font-size: 22px;
+    font-weight: 300;
+}
+
+.bg-img .project-title{
+  text-align: left;
+  bottom: 20px;
+  left: 20px;
+  position: absolute;
+}
+
+.bg-img .project-title h2, .bg-img .project-title p {
+  color: #ffffff;
+  position: relative;
+}
+
+.bg-img .project-title h2 {
+  margin: 0;
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+}
+
+.bg-img .project-title p {
+  margin: 0;
+    margin-bottom: 5px;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.75);
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+}
+
+.bg-img:hover p, .bg-img:hover h2 {
+  margin-left: 10px;
+}
+
+.gutter-fix > div[class*='col-'] {
+  padding-right: 9px;
+  padding-left: 9px;
+}
+
+
+
+
+/* HOME PAGE */
+.intro{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.intro h2{
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+
+/* ABOUT */
+.about{
+    margin-top: 50px;
+}
+.profile-img{
+    margin-bottom: 30px;
+}
+.contact{
+    margin-top: 20px;
+}
+
+
+
+/* PROJECTS */
+.projects{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 500;
+}
+
+.projects h2{
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.projects .link{
+    color: rgb(65,77,126,0.85);
+}
+.projects .link:hover{
+    color: rgb(65,77,126);
+}
+
+#photography, #art, #web{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.photos{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+/* FOOTER */
+footer{
+   margin-bottom: 50px;
+}
+footer p{
+    color: rgb(47,55,88,0.7);
+}
+footer .fab{
+    font-size: 20px;
+}
+footer .social{
+    color: rgb(47,55,88);
+    margin-right: 12px;
+}
+footer .social:hover{
+    color: #558AB6;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+
+
+@media (max-width: 1200px) {
+  .bg-img {
+    height: 350px;
+  }
+}
+@media (max-width:991px){
+}
+
+@media(max-width:767px){
+    .header{
+        display: none;
+    }
+    .navbar-brand{
+        font-size: 18px;
+        margin-right: 5px;
+    }
+    .intro{
+        margin-top: 60px;
+    }
+}
